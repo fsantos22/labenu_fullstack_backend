@@ -7,7 +7,7 @@
     "test": "clear && echo \"Running tests...\" && jest",
     "mysql": "clear && tsc ./src/data/MySql.ts",
     "dev-start": "clear && nodemon ./src/index.ts",
-    "start": "tsc && node build/index.js"
+    "start": "tsc && node build/src/index.js"
   },
   "keywords": [
     "api",
